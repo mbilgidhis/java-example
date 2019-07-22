@@ -12,7 +12,7 @@ public class GreetingController {
 	
 	@RequestMapping("/") 
 	public String result(){
-		return "home";
+		return "this is home";
 	}
 	
 	@RequestMapping("/greeting")
